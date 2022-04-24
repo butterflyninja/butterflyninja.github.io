@@ -1,2 +1,2 @@
-# [butterfly.ninja](https://butterfly.ninja) <br> [pages](butterflyninja.github.io)
+# [butterfly.ninja](https://butterfly.ninja) <br> [pages](https://butterflyninja.github.io)
 
