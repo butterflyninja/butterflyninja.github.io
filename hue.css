@@ -1,0 +1,53 @@
+/* opensource color from the s9a.page/sea */
+:root { --oil:seashell; --ink:#000 }
+.amber { --oil: salmon }
+.blush { --oil: pink }
+.breeze { --oil: mistyrose }
+.foam { --oil: darkturquoise }
+.fume { --oil: hotpink }
+.gel { --oil: mediumslateblue }
+.glow { --oil: gold }
+.gush { --oil: violet }
+.lava { --oil: rosybrown }
+.sand { --oil: navajowhite }
+.storm { --oil: gainsboro }
+.tide { --oil: deepskyblue }
+@media (prefers-contrast: less) {
+  :root { --ink:#111 }
+  .blush { --oil: lightpink }
+  .breeze { --oil: bisque }
+  .fume { --oil: mediumorchid }
+  .sand { --oil: peachpuff }
+  .storm { --oil: silver }
+  .tide { --oil: dodgerblue }
+}
+@media (prefers-contrast: more) {
+  .amber { --oil: coral }
+  .foam { --oil: turquoise }
+  .gel { --oil: mediumpurple }
+  .glow { --oil: #ee1 }
+  .gush { --oil: plum }
+  .lava { --oil: tan }
+}
+.wet :not(.dry) {
+  background-color: none;
+  color: inherit;
+}
+.wet ::selection {
+  background-color: var(--oil);
+  color: var(--ink);
+}
+.blood.blood {
+  background-color: var(--oil);
+  color: var(--ink);
+}
+.bleed.bleed {
+  background-color: var(--ink);
+  color: var(--oil);
+}
+@media (prefers-color-scheme:light) {
+  .bleed.blood {
+    background-color: var(--oil);
+    color: var(--ink);
+  }
+}

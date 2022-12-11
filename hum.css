@@ -1,0 +1,33 @@
+.hip { font: max(4vw, 20pt) sans-serif }
+.lip { display:contents  }
+.bit { font: 400 2em sans-serif }
+.sun { all: unset }
+.nip :focus { outline: medium groove }
+.nap { font-weight: lighter }
+.wub { font-weight: bolder }
+.wuv { text-decoration-style: wavy }
+.wah :focus { outline: thick dotted }
+.rub { word-spacing: 1px }
+.ace { justify-content: space-between }
+
+.wormhole {
+  font-weight: inherit;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: table;
+  margin: auto;
+}
+
+.wormhole * {
+  display: inline-flex;
+}
+
+.wingspan {
+  display: flex;
+  justify-content: space-around;
+}
+
+.deepmode {
+  writing-mode: vertical-rl;
+}
