@@ -12,6 +12,7 @@
 .sand { --oil: navajowhite }
 .storm { --oil: gainsboro }
 .tide { --oil: deepskyblue }
+.bae { --oil: #bae }
 @media (prefers-contrast: less) {
   :root { --ink:#111 }
   .blush { --oil: lightpink }
