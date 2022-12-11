@@ -1,4 +1,4 @@
-.hip { font: max(4vw, 20pt) sans-serif }
+.hip { font: max(9vw, 39pt) sans-serif }
 .lip { display:contents  }
 .bit { font: 400 2em sans-serif }
 .sun { all: unset }
@@ -9,20 +9,21 @@
 .wah :focus { outline: thick dotted }
 .rub { word-spacing: 1px }
 .ace { justify-content: space-between }
+:target { font-family: fantasy }
 
-.wormhole {
-  font-weight: inherit;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
-  display: inline-table;
-  margin: auto;
+.dirtlava {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
 
-.wormhole * {
+.wormhole {
+  order: 2;
+  z-index: -1;
+  font: inherit;
   display: inline-flex;
+  margin: auto;
 }
 
 .wingspan {
@@ -31,5 +32,8 @@
 }
 
 .deepmode {
+  font-family: inherit;
+  display: inline-flex;
+  margin: auto;
   writing-mode: vertical-rl;
 }
