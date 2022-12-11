@@ -33,9 +33,9 @@
   background-color: none;
   color: inherit;
 }
-.wet ::selection {
+.lip ::selection {
   background-color: var(--oil);
-  color: var(--ink);
+  color: var(--oil);
 }
 .blood.blood {
   background-color: var(--oil);
@@ -51,7 +51,7 @@
     color: var(--ink);
   }
 }
-
 .grace {
-  background-image: radial-gradient(lavender, gainsboro);
+  background-image: radial-gradient(aliceblue, powderblue);
+  background-image: radial-gradient(#000, #111);
 }
