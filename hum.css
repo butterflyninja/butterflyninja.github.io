@@ -13,7 +13,7 @@
 :focus-within { cursor: crosshair }
 :focus { text-decoration-style: wavy }
 
-.dirtlava {
+.balalava {
   min-height: 100vh;
   display: flex;
   flex-flow: column;
