@@ -29,6 +29,7 @@
 }
 
 .wingspan {
+  contain: style;
   display: flex;
   justify-content: space-around;
 }
