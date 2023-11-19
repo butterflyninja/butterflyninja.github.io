@@ -52,7 +52,12 @@
     color: var(--ink);
   }
 }
+
+/* play */
 .grace {
-  background-image: radial-gradient(aliceblue, powderblue);
-  background-image: radial-gradient(#000, #111);
+  --ear: linear-gradient(coral, purple, turquoise, khaki, indigo);
+  --dial: radial-gradient(coral, purple, turquoise, khaki, indigo);
+  --conch: conic-gradient(coral, purple, turquoise, khaki, indigo);
+  background-image: var(--dial);
+  background-image: var(--conch);
 }
