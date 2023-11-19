@@ -22,7 +22,6 @@
 
 .wormhole {
   order: 2;
-  z-index: -1;
   font: inherit;
   display: inline-flex;
   margin: auto;
