@@ -2,16 +2,21 @@
 .lip { display:contents  }
 .bit { font: 400 2em sans-serif }
 .sun { all: unset }
-.nip :focus { outline: thick dotted }
+.nip {}
 .nap { font-weight: lighter }
 .wub { font-weight: bolder }
 .wuv { text-decoration-style: wavy }
-.wah :focus { outline: thick dotted }
+.wah {}
 .rub { word-spacing: 1px }
 .ace { justify-content: space-between }
 :target { font-family: fantasy }
 :focus-within { cursor: crosshair }
-:focus { text-decoration-style: wavy }
+:focus { 
+  outline: calc(1ex / 3) dotted;
+}
+:hover {
+  text-decoration-style: double;
+}
 
 .balalava {
   min-height: 100vh;
@@ -28,7 +33,7 @@
 }
 
 .wingspan {
-  contain: style;
+  contain: style layout;
   display: flex;
   justify-content: space-around;
 }
