@@ -33,7 +33,7 @@
 }
 
 .wingspan {
-  contain: style layout;
+  contain: style;
   display: flex;
   justify-content: space-around;
 }
