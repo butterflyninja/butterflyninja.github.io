@@ -1,0 +1,80 @@
+:root {
+  color: midnightblue;
+  background-color: deepskyblue;
+  background-image:
+    linear-gradient(
+      .25turn,
+      var(--jupe),
+      var(--pour),
+      darkorchid,
+      deepskyblue,
+      mediumorchid,
+      var(--pour),
+      mediumpurple, 
+      mediumorchid,
+      var(--pour),
+      mediumorchid,
+      var(--pour),
+      var(--rain),
+      deepskyblue,
+      var(--wind),
+      var(--rain),
+      var(--pour),
+      var(--punk)
+    );
+}
+
+:any-link {
+  color: #110811;
+  background-color: var(--moss);
+  box-shadow: 0 3em 3em 1em #a5e;
+}
+
+[href*=p9e] { background-color: var(--volt) }
+[href*=s9a] { background-color: var(--lawn) }
+[href*=web] { background-color: var(--rain) }
+[href*=dev] { background-color: var(--moss) }
+
+/*
+https://s9a.page/snooze hue
+https://s9a.page/elftile mix
+*/
+
+:root {
+  --lawn: rgb(90, 210, 90);
+  --moss: rgb(120, 210, 210);
+  --punk: rgb(270, 120, 330);
+  --pulp: rgb(180, 90, 240);
+  --pour: rgb(90, 150, 240);
+  --rain: rgb(90, 180, 270);
+  --volt: rgb(240, 240, 30);
+  --jupe: rgb(240, 180, 30);
+  --wind: rgb(150, 210, 240);
+  --ink: rgb(30, 30, 20);
+}
+
+.hue {
+	--hue: orange;
+  background: var(--hue);
+  color: var(--ink);
+}
+
+.lawn { --hue: var(--lawn) }
+.moss { --hue: var(--moss) }
+.punk { --hue: var(--punk) }
+.pulp { --hue: var(--pulp) }
+.pour { --hue: var(--pour) }
+.rain { --hue: var(--rain) }
+.volt { --hue: var(--volt) }
+.jupe { --hue: var(--jupe) }
+.wind { --hue: var(--wind) }
+
+::selection {
+	background: var(--ink);
+	color: var(--hue);
+}
+
+::selection {
+  background: orange;
+  color: midnightblue;
+}
